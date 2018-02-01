@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="api" />
+        <module name="cluster" />
+        <module name="common" />
+        <module name="filter" />
+        <module name="manager" />
+        <module name="regestry" />
+        <module name="rpc" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.8">
+      <module name="api" target="1.5" />
+      <module name="cluster" target="1.5" />
+      <module name="common" target="1.5" />
+      <module name="filter" target="1.5" />
+      <module name="hush" target="1.5" />
+      <module name="manager" target="1.5" />
+      <module name="regestry" target="1.5" />
+      <module name="register" target="1.5" />
+      <module name="rpc" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
